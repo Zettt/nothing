@@ -17,6 +17,12 @@
 		6D90CF4D1427967900E54E68 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D90CF4B1427967900E54E68 /* MainWindow_iPhone.xib */; };
 		6D90CF511427967900E54E68 /* nothingAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D90CF501427967900E54E68 /* nothingAppDelegate_iPad.m */; };
 		6D90CF541427967900E54E68 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D90CF521427967900E54E68 /* MainWindow_iPad.xib */; };
+		6D90CF5B1427970700E54E68 /* Icon White 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D90CF5A1427970700E54E68 /* Icon White 114x114.png */; };
+		6D90CF5D1427970A00E54E68 /* Icon White 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D90CF5C1427970A00E54E68 /* Icon White 57x57.png */; };
+		6D90CF5F142797B600E54E68 /* Icon White 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D90CF5E142797B600E54E68 /* Icon White 72x72.png */; };
+		6D9DF057143E5E6A00664949 /* Icon Black 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9DF054143E5E6A00664949 /* Icon Black 57x57.png */; };
+		6D9DF058143E5E6A00664949 /* Icon Black 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9DF055143E5E6A00664949 /* Icon Black 72x72.png */; };
+		6D9DF059143E5E6A00664949 /* Icon Black 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9DF056143E5E6A00664949 /* Icon Black 114x114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +30,24 @@
 		6D90CF351427967900E54E68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6D90CF371427967900E54E68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D90CF391427967900E54E68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6D90CF3D1427967900E54E68 /* nothing-Info.plist */ = {isa = PBXFileReference; path = "nothing-Info.plist"; sourceTree = "<group>"; };
+		6D90CF3D1427967900E54E68 /* nothing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nothing-Info.plist"; sourceTree = "<group>"; };
 		6D90CF3F1427967900E54E68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D90CF411427967900E54E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D90CF431427967900E54E68 /* nothing-Prefix.pch */ = {isa = PBXFileReference; path = "nothing-Prefix.pch"; sourceTree = "<group>"; };
-		6D90CF441427967900E54E68 /* nothingAppDelegate.h */ = {isa = PBXFileReference; path = nothingAppDelegate.h; sourceTree = "<group>"; };
+		6D90CF431427967900E54E68 /* nothing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nothing-Prefix.pch"; sourceTree = "<group>"; };
+		6D90CF441427967900E54E68 /* nothingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nothingAppDelegate.h; sourceTree = "<group>"; };
 		6D90CF451427967900E54E68 /* nothingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nothingAppDelegate.m; sourceTree = "<group>"; };
-		6D90CF481427967900E54E68 /* nothingAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = nothingAppDelegate_iPhone.h; path = iPhone/nothingAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		6D90CF481427967900E54E68 /* nothingAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nothingAppDelegate_iPhone.h; path = iPhone/nothingAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		6D90CF491427967900E54E68 /* nothingAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = nothingAppDelegate_iPhone.m; path = iPhone/nothingAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		6D90CF4C1427967900E54E68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		6D90CF4F1427967900E54E68 /* nothingAppDelegate_iPad.h */ = {isa = PBXFileReference; name = nothingAppDelegate_iPad.h; path = iPad/nothingAppDelegate_iPad.h; sourceTree = "<group>"; };
+		6D90CF4F1427967900E54E68 /* nothingAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nothingAppDelegate_iPad.h; path = iPad/nothingAppDelegate_iPad.h; sourceTree = "<group>"; };
 		6D90CF501427967900E54E68 /* nothingAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = nothingAppDelegate_iPad.m; path = iPad/nothingAppDelegate_iPad.m; sourceTree = "<group>"; };
 		6D90CF531427967900E54E68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		6D90CF5A1427970700E54E68 /* Icon White 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon White 114x114.png"; sourceTree = "<group>"; };
+		6D90CF5C1427970A00E54E68 /* Icon White 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon White 57x57.png"; sourceTree = "<group>"; };
+		6D90CF5E142797B600E54E68 /* Icon White 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon White 72x72.png"; sourceTree = "<group>"; };
+		6D9DF054143E5E6A00664949 /* Icon Black 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon Black 57x57.png"; sourceTree = "<group>"; };
+		6D9DF055143E5E6A00664949 /* Icon Black 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon Black 72x72.png"; sourceTree = "<group>"; };
+		6D9DF056143E5E6A00664949 /* Icon Black 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon Black 114x114.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,7 @@
 		6D90CF261427967800E54E68 = {
 			isa = PBXGroup;
 			children = (
+				6D9DF05A143E5E7200664949 /* Icon */,
 				6D90CF3B1427967900E54E68 /* nothing */,
 				6D90CF341427967900E54E68 /* Frameworks */,
 				6D90CF321427967900E54E68 /* Products */,
@@ -122,6 +135,19 @@
 			name = iPad;
 			sourceTree = "<group>";
 		};
+		6D9DF05A143E5E7200664949 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				6D9DF054143E5E6A00664949 /* Icon Black 57x57.png */,
+				6D9DF055143E5E6A00664949 /* Icon Black 72x72.png */,
+				6D9DF056143E5E6A00664949 /* Icon Black 114x114.png */,
+				6D90CF5E142797B600E54E68 /* Icon White 72x72.png */,
+				6D90CF5C1427970A00E54E68 /* Icon White 57x57.png */,
+				6D90CF5A1427970700E54E68 /* Icon White 114x114.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +201,12 @@
 				6D90CF401427967900E54E68 /* InfoPlist.strings in Resources */,
 				6D90CF4D1427967900E54E68 /* MainWindow_iPhone.xib in Resources */,
 				6D90CF541427967900E54E68 /* MainWindow_iPad.xib in Resources */,
+				6D90CF5B1427970700E54E68 /* Icon White 114x114.png in Resources */,
+				6D90CF5D1427970A00E54E68 /* Icon White 57x57.png in Resources */,
+				6D90CF5F142797B600E54E68 /* Icon White 72x72.png in Resources */,
+				6D9DF057143E5E6A00664949 /* Icon Black 57x57.png in Resources */,
+				6D9DF058143E5E6A00664949 /* Icon Black 72x72.png in Resources */,
+				6D9DF059143E5E6A00664949 /* Icon Black 114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +340,7 @@
 				6D90CF591427967900E54E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
